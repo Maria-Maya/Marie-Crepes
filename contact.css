@@ -1,0 +1,47 @@
+/* Styles basiques pour le formulaire et les messages d’erreur */
+#contactForm {
+  max-width: 400px;
+  margin: 40px auto;
+  padding: 24px;
+  background: #fff8e1;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px #ddd;
+}
+
+#contactForm label {
+  display: block;
+  margin-top: 12px;
+  font-weight: bold;
+}
+
+#contactForm input,
+#contactForm textarea {
+  width: 100%;
+  padding: 8px;
+  margin-top: 4px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.error {
+  color: #d32f2f;
+  font-size: 0.95em;
+}
+
+#successMessage {
+  color: #388e3c;
+  font-weight: bold;
+  display: block;
+  margin-top: 18px;
+}
+
+#contactForm{
+  background: linear-gradient(135deg, #fffaf3, #9ccbb3);
+  padding: 40px 30px;
+  border-radius: 12px;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+  max-width: 700px;
+  margin: 40px auto;
+  font-family: 'Open Sans', sans-serif;
+  color: #4a3b2c;
+}
