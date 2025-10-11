@@ -66,3 +66,5 @@ fetch("https://maria-maya.github.io/Marie-Crepes/#contact", {
     document.getElementById('successMessage').textContent = "";
   }
 });
+
+

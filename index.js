@@ -26,7 +26,7 @@
      function afficherPresentation() {
       const texte = `
         <strong>Style chaleureux et artisanal</strong><br><br>
-        Bienvenue à <em>Crêperie Délice</em>, un petit coin de bonheur niché au cœur de Paris.
+        Bienvenue à <em>MIMI Crêpes</em>, un petit coin de bonheur niché au cœur de Paris.
         Ici, chaque crêpe est préparée avec amour, dans le respect des traditions bretonnes et avec des ingrédients frais et locaux.
         Que vous soyez amateur de douceurs sucrées ou de saveurs salées, notre carte vous invite à un voyage gourmand.
         Installez-vous, respirez l’odeur du beurre fondu, et laissez-vous séduire par l’ambiance conviviale de notre maison.
@@ -194,7 +194,7 @@ function validerPanier() {
 }*/
 const textes = {
   fr: {
-    accueil: "Bienvenue à Crêperie Marie",
+    accueil: "Bienvenue à MIMI Crêpes",
     description: "Un petit coin de bonheur niché au cœur de Paris. Ici, chaque crêpe est préparée avec amour Un petit coin de bonheur niché au cœur de Paris. Ici, chaque crêpe est préparée avec amour, dans le respect des traditions bretonnes et avec des ingrédients frais et locaux.Que vous soyez amateur de douceurs sucrées ou de saveurs salées, notre carte vous invite à un voyage gourmand.Installez-vous, respirez l’odeur du beurre fondu, et laissez-vous séduire par l’ambiance conviviale de notre maison.",
     boutonMenu: "Voir le menu",
     panierVide: "Votre panier est vide !",
@@ -205,7 +205,7 @@ const textes = {
     footer:"Footer"
   },
   en: {
-    accueil: "Welcome to Crêperie Marie",
+    accueil: "Welcome to MIMI Crêpes ",
     description: "A little slice of happiness tucked away in the heart of Paris. Here, every crêpe is lovingly crafted.Here, every crêpe is lovingly prepared, honoring Breton traditions and using fresh, local ingredients.Whether you're a fan of sweet delights or savory flavors, our menu invites you on a gourmet journey.Sit back, breathe in the aroma of melted butter, and let yourself be charmed by the warm, welcoming atmosphere of our home.",
     boutonMenu: "View the menu",
     panierVide: "Your cart is empty!",
@@ -216,21 +216,21 @@ const textes = {
     footer: "Footer"
   },
   es: {
-    accueil: "Bienvenidos a Crêperie Marie",
+    accueil: "Bienvenidos a MIMI Crêpes",
     description: "Un rincón de felicidad en el corazón de París. Aquí, cada crêpe se prepara con amor...",
     boutonMenu: "Ver el menú",
     panierVide: "¡Tu carrito está vacío!",
     commandeValidee: "¡Pedido confirmado! Gracias y buen provecho 🍽️"
   },
   it: {
-    accueil: "Benvenuti da Crêperie Marie",
+    accueil: "Benvenuti da MIMI Crêpes",
     description: "Un angolo di felicità nel cuore di Parigi. Qui ogni crêpe è preparata con amore...",
     boutonMenu: "Vedi il menu",
     panierVide: "Il tuo carrello è vuoto!",
     commandeValidee: "Ordine confermato! Grazie e buon appetito 🍽️"
   },
   pt: {
-    accueil: "Bem-vindo à Crêperie Marie",
+    accueil: "Bem-vindo à MIMI Crêpes",
     description: "Um cantinho de felicidade no coração de Paris. Aqui, cada crepe é feito com carinho...",
     boutonMenu: "Ver o menu",
     panierVide: "Seu carrinho está vazio!",
