@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="panier.css">
+    <title>Panier</title>
+
+</head>
+<body>
+    <section id="panier">
+  <h2>🛒 Votre Panier</h2>
+  <ul id="liste-panier"></ul>
+  <p><strong>Total :</strong> <span id="total">0,00€</span></p>
+  <button onclick="validerPanier()">Valider la commande</button>
+<button onclick="supprimerCommande()" style="margin-left:10px; background-color:#ccc; border:none; border-radius:6px; padding:8px 16px; cursor:pointer;">Supprimer la commande</button>
+
+</section>
+<script src="panier.js"></script>
+
+</body>
+</html>

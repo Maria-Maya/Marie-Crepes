@@ -8,3 +8,42 @@
   font-family: 'Open Sans', sans-serif;
   color: #4a3b2c;
 }
+
+
+/* 🛒 Panier */
+#panier ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+#panier li {
+  margin-bottom: 10px;
+}
+
+#panier button {
+  margin-top: 10px;
+  background-color: var(--accent-jaune);
+  border: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#panier button:hover {
+  background-color: #e0b93f;
+}
+
+.btn-remove {
+  background-color: var(--danger);
+  color: white;
+  border: none;
+  border-radius: 6px;
+  padding: 5px 10px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.btn-remove:hover {
+  background-color: #e04848;
+}
